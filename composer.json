@@ -1,0 +1,17 @@
+{
+    "name": "mustang-framework/container-installer",
+    "description": "A Composer plugin for installing Mustang Containers (of type mustang-container).",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mustang\\Installer\\": "src/"
+        }
+    },
+    "extra": {
+        "class": "Mustang\\Installer\\ContainerInstallerPlugin"
+    },
+    "require": {
+        "composer-plugin-api": "^2.0"
+    }
+}
